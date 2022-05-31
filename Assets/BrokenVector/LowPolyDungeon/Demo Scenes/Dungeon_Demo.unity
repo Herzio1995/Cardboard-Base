@@ -1232,6 +1232,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8621840712611753520, guid: 78725417e75a2c245affdf1cd0f8f800, type: 3}
+      propertyPath: lvl
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8621840712620719651, guid: 78725417e75a2c245affdf1cd0f8f800, type: 3}
       propertyPath: m_LocalPosition.z
       value: -9.603003
@@ -11093,6 +11097,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3789255411234223509, guid: 922f56f7812e74946888965a052b32c5, type: 3}
+      propertyPath: m_text
+      value: "Se\xF1r del terror"
+      objectReference: {fileID: 0}
     - target: {fileID: 5543178693370891793, guid: 922f56f7812e74946888965a052b32c5, type: 3}
       propertyPath: m_Name
       value: Trophy ground (1)
@@ -11145,6 +11153,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: 18f63ff904099034daf971dac5b32582, type: 2}
+    - target: {fileID: 8350100685766587862, guid: 922f56f7812e74946888965a052b32c5, type: 3}
+      propertyPath: m_text
+      value: "Has le\xEDdo 5 libros del g\xE9nero de Terror"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 922f56f7812e74946888965a052b32c5, type: 3}
 --- !u!4 &243975745 stripped
@@ -58706,6 +58718,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3789255411234223509, guid: 922f56f7812e74946888965a052b32c5, type: 3}
+      propertyPath: m_text
+      value: Aterrorizador aficionado
+      objectReference: {fileID: 0}
     - target: {fileID: 5543178693370891793, guid: 922f56f7812e74946888965a052b32c5, type: 3}
       propertyPath: m_Name
       value: Trophy ground (2)
@@ -58758,6 +58774,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 756e4c0d3dab39643ae82bf06263204b, type: 2}
+    - target: {fileID: 8350100685766587862, guid: 922f56f7812e74946888965a052b32c5, type: 3}
+      propertyPath: m_text
+      value: "Has le\xEDdo 1 libro del  g\xE9nero de terror"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 922f56f7812e74946888965a052b32c5, type: 3}
 --- !u!4 &1400091523 stripped
@@ -59464,6 +59484,22 @@ PrefabInstance:
     - target: {fileID: 8621840712520029035, guid: 78725417e75a2c245affdf1cd0f8f800, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8621840712611753520, guid: 78725417e75a2c245affdf1cd0f8f800, type: 3}
+      propertyPath: lvl
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8621840713863934373, guid: 78725417e75a2c245affdf1cd0f8f800, type: 3}
+      propertyPath: m_Color.b
+      value: 0.2924528
+      objectReference: {fileID: 0}
+    - target: {fileID: 8621840713863934373, guid: 78725417e75a2c245affdf1cd0f8f800, type: 3}
+      propertyPath: m_Color.g
+      value: 0.2924528
+      objectReference: {fileID: 0}
+    - target: {fileID: 8621840713863934373, guid: 78725417e75a2c245affdf1cd0f8f800, type: 3}
+      propertyPath: m_Color.r
+      value: 0.2924528
       objectReference: {fileID: 0}
     - target: {fileID: 8621840713863934395, guid: 78725417e75a2c245affdf1cd0f8f800, type: 3}
       propertyPath: m_IsActive
@@ -72060,6 +72096,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1390346201}
     m_Modifications:
+    - target: {fileID: 3789255411234223509, guid: 922f56f7812e74946888965a052b32c5, type: 3}
+      propertyPath: m_text
+      value: Verdadero Jedi
+      objectReference: {fileID: 0}
     - target: {fileID: 5543178693370891793, guid: 922f56f7812e74946888965a052b32c5, type: 3}
       propertyPath: m_Name
       value: Trophy ground (8)
@@ -72124,6 +72164,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 756e4c0d3dab39643ae82bf06263204b, type: 2}
+    - target: {fileID: 8350100685766587862, guid: 922f56f7812e74946888965a052b32c5, type: 3}
+      propertyPath: m_text
+      value: Consigue el logro True Jedi en Lego Star Wars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 922f56f7812e74946888965a052b32c5, type: 3}
 --- !u!4 &1770515360 stripped
@@ -75360,7 +75404,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Experimentar la aventura!
+  m_text: "\xA1Experimenta la aventura!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -87873,6 +87917,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8621840712611753520, guid: 78725417e75a2c245affdf1cd0f8f800, type: 3}
+      propertyPath: lvl
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 8621840713863934373, guid: 78725417e75a2c245affdf1cd0f8f800, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -90314,6 +90362,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3789255411234223509, guid: 922f56f7812e74946888965a052b32c5, type: 3}
+      propertyPath: m_text
+      value: No desbloqueado
+      objectReference: {fileID: 0}
     - target: {fileID: 5543178693370891793, guid: 922f56f7812e74946888965a052b32c5, type: 3}
       propertyPath: m_Name
       value: Trophy ground
@@ -90374,6 +90426,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 18f63ff904099034daf971dac5b32582, type: 2}
+    - target: {fileID: 8350100685766587862, guid: 922f56f7812e74946888965a052b32c5, type: 3}
+      propertyPath: m_text
+      value: "Lee 5 libros del g\xE9nero para desbloquear"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 922f56f7812e74946888965a052b32c5, type: 3}
 --- !u!1001 &6730397242121987693

@@ -5,6 +5,7 @@ using UnityEngine;
 public class Discoteca : MonoBehaviour
 {
     private AudioSource audioSource;
+    private bool isPlaying;
     [SerializeField] private AudioClip[] audios;
     private void Awake()
     {
@@ -15,6 +16,12 @@ public class Discoteca : MonoBehaviour
     }
     public void PLayBook()
     {
-        audioSource.PlayOneShot(audios[0], 0.9f);
+        if (isPlaying == false)
+        {
+            audioSource.PlayOneShot(audios[0], 0.9f);
+            isPlaying = true;
+        }
+        else Debug.Log("now Playing");
+
     }
 }
